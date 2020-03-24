@@ -17,3 +17,6 @@ while i < 32:
 print('该数字二进制编码中含有1的个数为：'+str(result1))
 print('该数字二进制编码中含有0的个数为：'+str(result0-result1))
 
+""" 12234
+44656
+fggdg """
