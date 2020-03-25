@@ -29,4 +29,11 @@ for a in FRUITS:
     else:
         print('\n',end='')
 else:
-    print('Oh!No!somthing is lose!')
+    for i in range(0,10,2):
+        print('Oh!No!somthing is lose!')
+
+test = [1,2,3,4,5,6,7,8,9]
+for j in range(0,len(test),2):
+    print(test[j],end=' | ')
+t = test[0:len(test):2]
+print(t)
