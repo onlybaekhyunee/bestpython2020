@@ -5,7 +5,7 @@
 __all__标识外部可引用的模块
 内容可以为空
 避免循环导入
-非当前目录或子目录下的引用，需扩充搜索路径sys.path.append("路径")后再引用
+非顶级包下的引用，需扩充搜索路径sys.path.append("路径")后再引用
 """
 import sys
 import io

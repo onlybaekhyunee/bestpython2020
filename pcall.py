@@ -1,5 +1,6 @@
 import testpackage.m1
 import testpackage.m2
+import testpackage.m4
 # 不带*的明确引入不受__all__的影响
 
 print(testpackage.sys.path)
