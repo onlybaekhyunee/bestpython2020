@@ -1,6 +1,8 @@
 import f1
 
 f1.attack = True
+# import导入的，可修改导入文件中的变量
+# from import导入的，生成一个副本来使用，不用修改导入文件中的变量
 
 f1.skillinfofun(SkillV='Ice Magic,AOE',SkillE='Single Target Damage，can not move for 3 minutes',skillF='High Ice Magic AOE,can be breaked')
 # 可变关键字参数传参方法
