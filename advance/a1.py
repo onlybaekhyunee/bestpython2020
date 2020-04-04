@@ -14,5 +14,5 @@ a = 20
 f = c()
 print(f.__closure__)
 print(f.__closure__[0].cell_contents)
-# 获取环境变量的值
+# 获取闭包环境变量的值
 print(f(3))

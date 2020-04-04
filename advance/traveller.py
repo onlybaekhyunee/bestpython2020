@@ -26,8 +26,11 @@ def trip1(origin):
     return go
 t1 = trip1(0)
 print(t1(3))
+print(t1.__closure__[0].cell_contents)
 print(t1(5))
+print(t1.__closure__[0].cell_contents)
 print(t1(8))
+print(t1.__closure__[0].cell_contents)
 print('~~~~~~~~~~~~~~~~~~闭包~~~~~~~~~~~~~~~~~~~')
 
 origin = 0
