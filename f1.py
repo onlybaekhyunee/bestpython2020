@@ -14,6 +14,7 @@ attack = False
 def skillinfofun(**skinfo):
     # 可变关键字参数
     print("Skinfo's type is "+str(type(skinfo)))
+    #dict
     for key,value in skinfo.items():
         print(key+': '+value)
     

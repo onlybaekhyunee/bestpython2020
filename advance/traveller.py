@@ -20,7 +20,7 @@ print('~~~~~~~~~~~~~~~~最初的思路~~~~~~~~~~~~~~~~~')
 
 def trip1(origin):
     def go(step):
-        nonlocal origin
+        nonlocal origin #标识为环境变量
         origin = origin + step
         return origin
     return go
