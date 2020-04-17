@@ -28,6 +28,7 @@ class Student(Human):
 
     @staticmethod
     # 静态方法，不需要传类本身变量与实例本身变量，与其它语言的static的含义不同
+    # 一般用于与类对象、实例对象无关的代码。
     def staticfun():
         print("This is a staticmethod!There are "+str(Student.stusum)+" students in total.")
 
